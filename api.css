@@ -1,0 +1,39 @@
+body {
+  background-color: #ccc;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  background: #1f1f1f;
+  padding: 5%;
+  width: 75%;
+  margin: auto;
+}
+
+#dados {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#ativos {
+  background-color: #283169;
+}
+
+#confirmados {
+  background-color: #694e28;
+}
+
+#mortes {
+  background-color: #692828;
+}
+
+#recuperados {
+  background-color: #3c6928;
+}
+
+#atualizacao {
+background-color: #1f1f1f;
+}

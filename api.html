@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>API</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  	<!-- CSS Bootstrap -->
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="api.css">
+  </head>
+  <body>
+    <div class="container">
+      <form style="margin-top: 10%;">
+        <div class="form-group">
+          <label for="nome">Nome do País</label>
+          <input type="text" class="form-control" id="nomePais">
+          <small class="form-text text-muted">Nome do país a ser pesquisado.</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Buscar</button>
+      </form>
+
+      <img id="logo" style="margin-top: 10%; width: 25%;"></img>
+
+      <div class="row" style="margin-top: 10%; color: #fff;">
+        <div class="col-sm" id="confirmados">
+          <p id="dados"></p>
+          <p>Confirmados</p>
+        </div>
+        <div class="col-sm" id="mortes">
+          <p id="dados"></p>
+          <p>Mortes</p>
+        </div>
+        <div class="col-sm" id="recuperados">
+          <p id="dados"></p>
+          <p>Recuperados</p>
+        </div>
+      </div>
+      <div class="row" style="color: #fff;">
+        <div class="col-sm" id="atualizacao">
+          <p id="dados"></p>
+        </div>
+      </div>
+    </div>
+    <!-- JS Bootstrap -->
+  	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  	<script type="text/javascript" src="api.js"></script>
+  </body>
+</html>
